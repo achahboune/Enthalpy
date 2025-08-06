@@ -1,59 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Privacy Policy - Enthalpy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #ffffff;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 800px;
-            margin: 60px auto;
-            padding: 0 20px;
-        }
-        h1 {
-            color: #2c5282;
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-        h2 {
-            color: #2c5282;
-            font-size: 24px;
-            margin-top: 40px;
-            margin-bottom: 15px;
-        }
-        p {
-            margin-bottom: 15px;
-            color: #666;
-        }
-        a {
-            color: #2c5282;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Privacy Policy - Enthalpy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px; /* identique à index.html */
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      padding: 20px 0;
+      border-bottom: 1px solid #e2e8f0;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 24px;
+      text-decoration: none;
+      color: inherit; /* ← mot Enthalpy garde sa couleur normale (noir) */
+    }
+
+    .logo svg {
+      width: 40px;
+      height: 40px;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      color: #2c5282;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #2c5282;
+      font-size: 24px;
+      margin-top: 40px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      margin-bottom: 15px;
+      color: #666;
+    }
+
+    a {
+      color: #2c5282;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy</h1>
-        <p>We value your privacy and are committed to protecting your personal data.</p>
-        <h2>1. Information We Collect</h2>
-        <p>We may collect your name, email, and company information when you submit a demo request or interact with our site.</p>
-        <h2>2. How We Use It</h2>
-        <p>We use this information to provide services, respond to inquiries, and improve our platform.</p>
-        <h2>3. Data Protection</h2>
-        <p>We implement appropriate security measures to protect your information from unauthorized access or disclosure.</p>
-        <h2>4. Cookies</h2>
-        <p>We use cookies to analyze site traffic and enhance your user experience.</p>
-        <h2>5. Your Rights</h2>
-        <p>You have the right to access, modify, or delete your data. Contact us at <a href="mailto:alaa.chahboune@enthalpy.site">alaa.chahboune@enthalpy.site</a>.</p>
-    </div>
+
+  <!-- Header identique à index.html -->
+  <div class="container header-content">
+    <a href="index.html" class="logo">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="50,15 85,75 15,75" fill="none" stroke="#219adb" stroke-width="2"></polygon>
+        <polygon points="50,45 85,75 15,75" fill="none" stroke="#219adb" stroke-width="2"></polygon>
+      </svg>
+      Enthalpy
+    </a>
+  </div>
+
+  <!-- Main content -->
+  <div class="content">
+    <h1>Privacy Policy</h1>
+    <p>We value your privacy and are committed to protecting your personal data.</p>
+    <h2>1. Information We Collect</h2>
+    <p>We may collect your name, email, and company information when you submit a demo request or interact with our site.</p>
+    <h2>2. How We Use It</h2>
+    <p>We use this information to provide services, respond to inquiries, and improve our platform.</p>
+    <h2>3. Data Protection</h2>
+    <p>We implement appropriate security measures to protect your information from unauthorized access or disclosure.</p>
+    <h2>4. Cookies</h2>
+    <p>We use cookies to analyze site traffic and enhance your user experience.</p>
+    <h2>5. Your Rights</h2>
+    <p>You have the right to access, modify, or delete your data. Contact us at <a href="mailto:alaa.chahboune@enthalpy.site">alaa.chahboune@enthalpy.site</a>.</p>
+  </div>
+
 </body>
 </html>
