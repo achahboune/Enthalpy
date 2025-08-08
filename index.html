@@ -433,6 +433,8 @@
             text-align: center;
             position: relative;
             overflow: hidden;
+            max-height: 90vh; /* Ensure modal content is scrollable on smaller screens */
+            overflow-y: auto; /* Enable vertical scrolling */
         }
         .thankyou-modal-content::before {
             content: '';
@@ -999,6 +1001,7 @@
                 // Using direct link to PDF hosted on GitHub Pages
                 link.href = './assets/2025_SaaS_IoT_Benchmark_Report.pdf';
                 link.download = '2025_SaaS_IoT_Benchmark_Report.pdf';
+                link.target = '_blank';
                 
                 // Append to the body
                 document.body.appendChild(link);
